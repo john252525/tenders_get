@@ -1,0 +1,21 @@
+{
+    "name": "tender-service/tender-loader",
+    "description": "Service for loading tenders from JSON to MySQL",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TenderService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ]
+}
